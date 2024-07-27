@@ -1,0 +1,88 @@
+@media screen and (max-width: 850px){
+    
+    .burger-menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(104, 64, 204);
+        border: 1px solid rgb(104, 64, 204);
+        border-radius: 50px;
+        padding: 5px 5px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+
+    .burger-menu-toggle {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(104, 64, 204);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        rotate: 90deg;
+        transition-duration: 0.2s;
+        border: 1px solid rgb(104, 64, 204);
+        border-radius: 50px;
+        padding: 5px 5px;
+        cursor: pointer;
+    }
+
+    .burger-line-1 {
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 20px;
+        transition-duration: 0.2s;
+    }
+
+    .burger-line-2 {
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 20px;
+    }
+
+    .burger-line-3 {
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 20px;
+        transition-duration: 0.2s;
+    }
+
+    .burger-line-1-toggle {
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        margin: 5px 0;
+        transform: rotate(45deg) translate(7px, 5px);
+        border-radius: 20px;
+        transition-duration: 0.2s;
+    }
+
+    .burger-line-2-toggle {
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        display: none;
+    }
+
+    .burger-line-3-toggle {
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        margin: 5px 0;
+        transform: rotate(-45deg) translate(5px, -5px);
+        border-radius: 20px;
+        transition-duration: 0.2s;
+    }
+}
+
+

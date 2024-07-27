@@ -1,0 +1,51 @@
+
+
+
+.titlu-dividende {
+    color: rgb(58, 10, 77);
+    text-align: center;
+}
+
+.detalii-dividende {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+#div-col-1 {
+    border: 1px solid rgb(179, 152, 176);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#div-col-2 {
+    border: 1px solid rgb(179, 152, 176);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.titlu-despre-companie {
+    color: rgb(58, 10, 77);
+    text-align: center;
+}
+
+.info-despre-companie {
+    border: 1px solid rgb(58, 10, 77);
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 780px) {
+    .detalii-dividende {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+    
+}
