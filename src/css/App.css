@@ -1,5 +1,9 @@
 /*Casuta de cautare*/
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #search-bar {
     display: flex;
     flex-direction: column;
@@ -21,4 +25,11 @@
     font-size: 1.3rem;
     color: rgb(104, 64, 204);
     font-weight: bolder;
+}
+
+
+.list-term {
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(104, 64, 204);
 }
