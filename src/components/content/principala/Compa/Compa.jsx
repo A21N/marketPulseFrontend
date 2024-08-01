@@ -1,7 +1,11 @@
 import { Pricecompa } from './Pricecompa';
+import { Graficcompa } from './Graficcompa';
 
 export const Compa = () => {
     return (
-        <Pricecompa />
+        <>
+            <Pricecompa />
+            <Graficcompa />
+        </>
     )
 }

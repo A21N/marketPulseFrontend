@@ -1,7 +1,11 @@
-import { Biofarmprice } from './Biofarmprice'
+import { Biofarmprice } from './Biofarmprice';
+import { Graficbiofarm } from './Graficbiofarm';
 
 export const Biofarm = () => {
     return (
-        <Biofarmprice />
+        <>
+            <Biofarmprice />
+            <Graficbiofarm />
+        </>
     )
 }

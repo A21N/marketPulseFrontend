@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-export const Graficbrd = () => {
+export const Graficbiofarm = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export const Graficbrd = () => {
       script.innerHTML = JSON.stringify({
         width: "100%",
         height: "400",
-        symbol: "BVB:BRD",
+        symbol: "BVB:BIO",
         interval: "D",
         timezone: "Etc/UTC",
         theme: "light",

@@ -1,20 +1,20 @@
 import React, { useEffect, useRef } from 'react';
 
-export const Graficomv = () => {
+export const Graficantibiotice = () => {
   const containerRef = useRef(null);
 
-useEffect(() => {
+  useEffect(() => {
     // Verifică dacă scriptul a fost deja adăugat
     if (!document.getElementById('tradingview-widget-script-brd')) {
       const script = document.createElement('script');
-      script.id = 'tradingview-widget-script-brd'; 
+      script.id = 'tradingview-widget-script-brd'; // Adaugă un ID unic pentru acest script
       script.type = 'text/javascript';
       script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
       script.async = true;
       script.innerHTML = JSON.stringify({
         width: "100%",
         height: "400",
-        symbol: "BVB:SNP",
+        symbol: "BVB:ATB",
         interval: "D",
         timezone: "Etc/UTC",
         theme: "light",
