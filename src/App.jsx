@@ -11,8 +11,6 @@ import { Omvpetrom } from './components/content/principala/omv/Omvpetrom';
 import { Antibiotice } from './components/content/principala/antibiotice/Antibiotice';
 import { Bermas } from './components/content/principala/bermas/Bermas';
 import { Biofarm } from './components/content/principala/biofarm/Biofarm';
-import { Brdgrup } from './components/content/principala/brd/Brdgrup';
-import { Aerostar } from './components/content/principala/Aerostar/Aerostar';
 import { Alro } from './components/content/principala/Alro/Alro';
 import { Bancatransilvania } from './components/content/principala/Bancatransilvania/Bancatransilvania';
 import { Compa } from './components/content/principala/Compa/Compa';
