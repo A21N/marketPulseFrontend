@@ -1,6 +1,6 @@
 import '../companii.css';
 
-export const Desprebrd = () => {
+export const Despreteraplast = () => {
     return (
         <>
             <h1 className='titlu-despre-companie'>Despre companie</h1>

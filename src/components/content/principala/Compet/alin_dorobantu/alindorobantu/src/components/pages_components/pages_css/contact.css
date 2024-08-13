@@ -1,0 +1,83 @@
+#position-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(44, 44, 56);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 70px 0px;
+    height: 100vh;
+    
+}
+
+#position-form h1 {
+    color: white;
+    
+}
+
+form h4 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0px 0px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.align-form {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#submit-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-contact {
+    padding: 5px;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    width: 50%;
+    border: 1px solid rgb(254, 227, 9);
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px;
+    
+   
+}
+
+#submit-contact:hover {
+    background-color: rgb(254, 227, 9);
+    color: rgb(95, 95, 95);
+}
+
+#submit-contact:active {
+    box-shadow: 3px 4px 5px 2px rgba(255, 200, 33, 0.3);
+}
+
+#name, #email, #message {
+    padding: 10px 0px 10px 10px;
+}
+
+#name, #email, #message {
+    width: 90%;
+   
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 5px;
+    margin: 20px 0px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.response-text {
+    color: white; 
+    font-size: 16px; 
+    margin-top: 10px; 
+  }
+  

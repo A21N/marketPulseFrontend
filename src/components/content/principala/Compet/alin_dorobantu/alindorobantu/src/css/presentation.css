@@ -1,0 +1,312 @@
+#alin-face {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cerc-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(254, 227, 9);
+    border-radius: 50%;
+}
+
+#alin-face img {
+    width: 300px;
+    height: 300px;
+    border: 12px solid rgb(44, 44, 56);
+    background-color: rgb(254, 227, 9);
+    border-radius: 50%;
+}
+
+.name-presentation {
+    background-color: rgb(44, 44, 56);
+    border-radius: 5px;
+    padding: 20px 0;
+    margin: 10px 0;
+    height: 200px;
+}
+
+.name-presentation h1 {
+    color: white;
+    padding: 20px 0 0 0px;
+    text-align: center;
+  
+}
+
+.name-presentation h1 span {
+    color: rgb(254, 227, 9);
+    margin-left: 20px;
+    
+}
+
+.name-presentation h4 {
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#blue {
+    color: rgb(80, 184, 245);
+
+}
+
+#yellow {
+    color: rgba(233, 250, 0, 0.764);
+}
+
+#green {
+    color: rgb(71, 209, 25);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.linkedin:hover {
+    background-color: rgb(9, 107, 254);
+    
+}
+
+.linkedin:active {
+    box-shadow: 2px 2px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.linkedin img {
+    width: 40px;
+    height: 40px;  
+}
+
+.github {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.github:hover {
+    background-color: rgb(158, 143, 6);
+   
+}
+
+.github:active {
+    box-shadow: 2px 2px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.github img {
+    width: 40px;
+    height: 40px;
+    
+}
+
+#social-line {
+    background-color: white;
+    width: 50px;
+    height: 2px;
+}
+
+#my-cv {
+    background-color: rgb(44, 44, 56);
+    border-radius: 5px;
+    padding: 20px 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.about-color {
+    color: white;
+}
+
+.about-me {
+    color: white;
+    text-align: justify;
+    width: 700px;
+    padding: 0 10px;
+   margin-top: 50px; 
+   text-indent: 20px; 
+}
+
+.about-me::first-letter {
+    font-size: 2em;
+}
+
+
+.about-coder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+}
+
+@media screen and (max-width: 835px) {
+    .about-me {
+        width: 85%;
+    }
+
+    .about-coder {
+        margin-top: -45px;
+    }
+}
+
+
+
+.curly {
+    font-size: 7.5em;
+}
+
+@media screen and (max-width: 650px) {
+    .curly {
+        font-size: 9.5em;
+    }
+
+    .about-coder {
+        margin-top: -45px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .curly {
+        font-size: 12.5em;
+    }
+
+    .about-me {
+       margin-top: 70px; 
+    }
+
+    .about-coder {
+        margin-top: -45px;
+    }
+}
+
+
+@media screen and (max-width: 495px) {
+    .curly {
+        font-size: 17em;
+    }
+
+    .about-me {
+       margin-top: 80px; 
+       text-align: left;
+    }
+
+
+    .about-coder {
+        margin-top: -85px;
+    }
+}
+
+
+
+#download-my-cv {
+   width: 240px;
+   border: 1px solid rgb(254, 227, 9);
+    border-radius: 20px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+   
+}
+
+#download-my-cv img {
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+
+#download-my-cv h2 {
+    color: white;
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+
+.business-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 56);
+    border-radius: 5px;
+    padding: 20px 0;
+    margin: 10px 0;
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(95, 95, 95);
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.my-name-card {
+align-self: center;
+color: white;
+}
+
+.info-detail {
+    align-self: flex-start;
+    padding-left: 20px;
+    color: white;
+    font-size: 1em;
+}
+
+.gold {
+    color: rgb(254, 227, 9);
+}
+
+.cont-buton {
+ 
+    border-radius: 20px;
+    padding: 3px 20px;
+    color: rgb(254, 227, 9);
+    font-weight: normal;
+    font-size: 1.1em;
+} 
+
+.cont-buton:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+} 
+
+
+
+
+#no-underline-bc {
+    text-decoration: none;
+}
+
+

@@ -7,13 +7,13 @@ import { Desprebrd } from './Desprebrd';
 
 export const Brdgrup = () => {
     return (
-        <>
+        <div>
             <Pricebrd />
             <Graficbrd />
             <Desprebrd />
             <Brddividend />
 
-        </>
+        </div>
       
        
     )

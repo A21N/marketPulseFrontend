@@ -21,6 +21,7 @@ import { Electrica } from './components/content/principala/Electrica/Electrica';
 import { Electromagnetica } from './components/content/principala/Electromagnetica/Electromagnetica';
 import { Hidroelectrica } from './components/content/principala/Hidroelectrica/Hidroelectrica';
 import { Medlife } from './components/content/principala/Medlife/Medlife';
+import { Company } from './components/content/principala/SablonCompanii/Company';
 
 import { Nuclearelectrica } from './components/content/principala/Nuclearelectrica/Nuclearelectrica';
 
@@ -42,7 +43,7 @@ function App() {
       
     <BrowserRouter>
     <Menu />
-    <div style={{width: '90%', height: '100%' ,margin: '0 auto'}}>
+    <div style={{width: '90%', margin: '0 auto'}}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/companii" element={<Companii />} />
@@ -53,8 +54,10 @@ function App() {
         <Route path="/antibiotice" element={<Antibiotice />} />
         <Route path="/bermas" element={<Bermas />} />
         <Route path="/biofarm" element={<Biofarm />} />
-        <Route path="/brdgrup" element={<Brdgrup />} />
-        <Route path="/aerostar" element={<Aerostar />} />
+        {/* <Route path="/brdgrup" element={<Brdgrup />} /> */}
+        <Route path="/brdgrup" element={<Company symbol="BRD"/>} />
+        <Route path="/aerostar" element={<Company symbol="ARS"/>} />
+        {/* <Route path="/aerostar" element={<Aerostar />} /> */}
         <Route path="/alro" element={<Alro />} />
         <Route path="/bancatransilvania" element={<Bancatransilvania />} />
         <Route path="/compa" element={<Compa />} />

@@ -1,0 +1,349 @@
+#align-elements-hard-skills {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c38;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px -290px 10px -0px;
+}
+
+
+#align-elements-soft-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c38;
+    padding: 10px 10px;
+    margin: 10px 0px 10px -290px;
+    border-radius: 5px;
+}
+
+
+.skill-size {
+    width: 100px;
+    height: 100px;
+    padding: 10px 40px;
+}
+
+.skill-item-body {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+    #align-elements-hard-skills {
+        margin: 10px -190px 10px -0px;
+    }
+
+    #align-elements-soft-skills {
+        margin: 10px 0px 10px -190px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+
+    #align-elements-hard-skills {
+        margin: 10px -90px 10px -0px;
+    }
+
+    #align-elements-soft-skills {
+        margin: 10px 0px 10px -90px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .skill-item-body {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: center;
+        background-color: rgb(95, 95, 95);
+        border-radius: 20px;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+    
+  
+
+     #align-elements-hard-skills {
+        width: 90vw;
+        margin: 10px 0px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+       
+    }
+
+     #align-elements-soft-skills {
+        width: 90vw;
+        margin: 10px 0px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+      
+    }
+}
+
+
+
+
+
+
+
+.skill-size-skill {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(177, 177, 177);
+    border-radius:50px;
+    padding: 10px;
+    margin: 10px;
+   
+} 
+
+.skill-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+/*HTML arrow rotate*/
+.html-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.html-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}
+
+/*CSS arrow rotate*/
+.css-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.css-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}
+
+/*JS arrow rotate*/
+.js-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.js-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}
+
+/*REACT arrow rotate*/
+.react-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.react-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}
+
+/*NODE arrow rotate*/
+.node-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.node-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}
+
+/*GIT arrow rotate*/
+.git-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.git-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}
+
+
+.arrow-skill-left {
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 3px;
+    transform: rotate(45deg) translate(6.4px, -6.4px);
+    border-radius: 20px;
+
+}
+
+.arrow-skill-right {
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 3px;
+    transform: rotate(-45deg) translate(-6.4px, -6.4px);
+    border-radius: 20px;
+
+}
+
+.skill-size-under {
+    width: 60px;
+    height: 60px;
+   
+}
+
+.text-skills-presentation {
+    text-align: left;
+    padding: 10px;
+    color: white;
+   
+}
+
+.body-list-html {
+    list-style-type: circle;
+}
+
+.body-list-css {
+    list-style-type: circle;
+}
+
+.body-list-js {
+    list-style-type: circle;
+}
+
+.body-list-react {
+    list-style-type: circle;
+}
+
+.body-list-node {
+    list-style-type: circle;
+}
+
+.body-list-git {
+    list-style-type: circle;
+}
+
+
+
+
+.body-list-html-none {
+    display: none;
+}
+
+.body-list-css-none {
+    display: none;
+}
+
+.body-list-js-none {
+    display: none;
+}
+
+.body-list-react-none {
+    display: none;
+}
+
+.body-list-node-none {
+    display: none;
+}
+
+.body-list-git-none {
+    display: none;
+}
+
+.name-skills {
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+}
+
+
+
