@@ -1,17 +1,16 @@
 
   
 import { Price } from './Price';
-import { Graficbrd } from '../brd/Graficbrd';
-import { Desprebrd } from '../brd/Desprebrd';
-import { Brddividend } from '../brd/Brddividend';
-export const Company = ({symbol}) => {
+import { Graphic } from './Graphic';
+import { About } from './About';
+import { Dividend } from './Dividend';
+export const Company = ({symbol, graph}) => {
     return (
         <div>
             <Price symbol={symbol}/>
-            <Graficbrd />
-            <Desprebrd />
-            <Brddividend />
-
+            <Graphic graph={graph} />
+            <About />
+            <Dividend />
         </div>
     )
 
